@@ -1,10 +1,61 @@
 # data-structures-and-algorithms
+
 javascript data structures and algorithms
 
-## 数据结构
+推荐两个网站 ：
+- http://zh.visualgo.net/  
+- http://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
+## 数据结构
+>数据结构（英语：data structure）是计算机中存储、组织数据的方式。——维基百科
+
+- 数组(Array)
+- 栈(Stack)
+- 队列(Queue)
+- 链表(Linked List)
+- 集合(Set)
+- 散列表(Hash) 和 字典(Map)
+- 树(Tree)
+- 图(Grapj)
+#### 数组
+在 js 里数组是一个最常用的数据类型之一，创建一个数组有很多方法，最常用的就是直接定义一个空数组：
+```
+var arr = []
+```
+在 js 里数组有很多操作方法，比如:push, pop, unshift, shift, splice, map, reducer, every等等等等，具体
+的可以参考 MDN：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+#### 栈
+>遵守后进先出原则的有序集合
+
+实现一个栈很简单，比如我们把所有元素存在一个叫 arr 的数组里，然后通过数组的 push, pop 方法就可以实现一个基本的栈了。
+
+```js
+var arr = [];
+arr.push(1,2,3)
+arr.pop()
+console.log(arr) // [1,2]
+```
+
+#### 队列
+>遵守先进先出原则的一组有序项
+
+实现一个队列同样很简单，像栈一样定义一个数组 arr 存放队列的元素，然后通过数组的 shift, unshift 方法来实现一个
+基本的队列
+
+```js
+var arr = [];
+arr.unshift(1,2,3)
+arr.shift()
+console.log(arr) // [1,2]
+```
+#### 链表
 
 ## 排序算法
+
+js 里数组自带 sort 排序方法，不过它的具体实现算法根据浏览器的引擎不同在每个浏览器上实现可能都不一样，下面介绍最常见的排序算法
+怎么用 js 实现
+
 1. 冒泡排序：比较任何两个相邻的项，如果第一个比第二个大，则交换它们
 
 ```js
