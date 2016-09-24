@@ -208,7 +208,7 @@ function search(arr, item) {
 ```
  上面这个类似冒泡排序的函数，有两层循环，如果数组的长度为 n；那么时间复杂度应该为 O(n^2)
  
- ## 常见的复杂度速查表
+## 常见的复杂度速查表
 
 ![Imgur](http://i.imgur.com/PzFruXj.jpg)
 ![Imgur](http://i.imgur.com/IHTiz4v.jpg)
