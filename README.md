@@ -6,6 +6,7 @@ data structures and algorithms
 - http://zh.visualgo.net/  
 - http://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
+### 内容
 
 - JavaScript 版本：[Javascript 数据结构与算法实现](https://github.com/dyygtfx/data-structures-and-algorithms/blob/master/JavaScript.md)
 - Python 版本：[Python 数据结构与算法实现](https://github.com/dyygtfx/data-structures-and-algorithms/blob/master/Python.md)
