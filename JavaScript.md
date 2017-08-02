@@ -149,7 +149,7 @@ function mergeSort(arr) {
   return merge(mergeSort(left), mergeSort(right));
 }
 // 测试
-var a = selectorSort([5,4,3,2,7,1]); // a = [1,2,3,4,5,7]
+var a = mergeSort([5,4,3,2,7,1]); // a = [1,2,3,4,5,7]
 ```
 
 #### 5.快速排序：和前面的归并算法一样，采用分治思想，谷歌 chrome 对js 原生 sort 的实现就是类似的快排算法。
@@ -195,7 +195,7 @@ function partition(arr, left, right) {
 }
 
 // 测试
-var a = selectorSort([5,4,3,2,7,1]); // a = [1,2,3,4,5,7]
+var a = quickSort([5,4,3,2,7,1]); // a = [1,2,3,4,5,7]
 ```
 
 ## 搜索算法
