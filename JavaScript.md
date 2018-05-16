@@ -198,24 +198,6 @@ function partition(arr, left, right) {
 var a = quickSort([5,4,3,2,7,1]); // a = [1,2,3,4,5,7]
 ```
 
-```js
-// 另一个写法
-var quickSort = function(arr) {
-　　if (arr.length <= 1) { return arr; }
-　　var pivotIndex = Math.floor(arr.length / 2);
-　　var pivot = arr.splice(pivotIndex, 1)[0];
-　　var left = [];
-　　var right = [];
-　　for (var i = 0; i < arr.length; i++){
-　　　　if (arr[i] < pivot) {
-　　　　　　left.push(arr[i]);
-　　　　} else {
-　　　　　　right.push(arr[i]);
-　　　　}
-　　}
-　　return quickSort(left).concat([pivot], quickSort(right));
-};
-```
 
 ## 搜索算法
 
