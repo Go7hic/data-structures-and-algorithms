@@ -8,5 +8,5 @@ data structures and algorithms
 
 ### 内容
 
-- JavaScript 版本：[Javascript 数据结构与算法实现](https://github.com/dyygtfx/data-structures-and-algorithms/blob/master/JavaScript.md)
-- Python 版本：[Python 数据结构与算法实现](https://github.com/dyygtfx/data-structures-and-algorithms/blob/master/Python.md)
+- JavaScript 版本：[Javascript 数据结构与算法实现](https://github.com/go7hic/data-structures-and-algorithms/blob/master/JavaScript/JavaScript.md)
+- Python 版本：[Python 数据结构与算法实现](https://github.com/go7hic/data-structures-and-algorithms/blob/master/Python/Python.md)
